@@ -1,0 +1,51 @@
+/* Top.css */
+
+.pricing-plans {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .pricing-plan {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 10px; /* Add margin to create space between price and features */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Remove default margin on unordered list */
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
